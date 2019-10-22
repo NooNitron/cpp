@@ -1,0 +1,8 @@
+Liczba zajency po 5 latach: 118.06
+Liczba wilkow po 5 latach: 43.46
+
+Iloœæ miesiêcy po ilu liczba zajecy zacznie malec: 53
+Iloœæ miesiêcy po ilu liczba wilkow zacznie malec: 98
+
+MIN zajecy: 80.71| MAX zajecy: 123.32
+MIN wilkow: 28.05| MAX wilkow: 54.15
