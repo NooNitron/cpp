@@ -6,6 +6,9 @@ git clone /path/to/repository
 jeśli korzystasz ze zdalnego serwera, użyjesz polecenia
 git clone https://github.com/NooNitron/cpp
 
+
+
+
 przepływ pracy
 twoje lokalne repozytorium składa się z trzech "drzew" zarządzanych przez git. przerwsze to Katalog Roboczy, który przechowuje bieżące pliki. drugie to Index, które działa jak poczekalnia i ostatnie z nich to HEAD, które wskazuje na ostatni utworzony commit.
 
@@ -17,16 +20,10 @@ Możesz zaproponować zmiany (dodać je do Index) używając
 git add <filename>
 git add *
 
-To pierwszy krok podczas pracy z gitem.
-Aby rzeczywiście zatwierdzić te zmiany użyj
 git commit -m "Commit message"
-Teraz plik jest zatwierdzony w HEAD, ale nie w zdalnym repozytorium.
 
-wysyłanie zmian
-Twoje zmiany są obecnie w HEAD twojej kopii roboczej. Aby wysłać te zmiany do zdalnego repozytorium, wykonaj
+
+
+
+git pull origin master
 git push origin master
-Zmień master na dowolną gałąź, której zmiany wysyłasz.
-
-Jeśli nie sklonowałeś istniejącego repozytorium i chcesz połączyć je ze zdalnym serwerem, musisz go dodać poprzez
-git remote add origin <server>
-Teraz masz możliwość wysyłania zmian na wskazany serwer.
